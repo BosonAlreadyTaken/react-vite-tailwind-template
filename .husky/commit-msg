@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# shellcheck source=./_/husky.sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 校验commit时添加的备注信息是否符合我们要求的规范，--no-install 参数表示强制npx使用项目中node_modules目录中的commitlint包
+npx --no-install commitlint --edit "$1"

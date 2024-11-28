@@ -1,0 +1,60 @@
+/* reset样式 */
+body,
+p,
+ul,
+dl,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+div,
+p,
+dl,
+dt,
+dd,
+form,
+section,
+article,
+aside,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+span {
+  box-sizing: border-box;
+}
+::after,
+::before {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+i,
+em {
+  font-style: normal;
+}
+body {
+  color: #333;
+  background-color: #f6f6f6;
+}
+img {
+  display: block;
+}
+a:link,
+a:visited,
+a:active {
+  color: #39c1e7;
+}

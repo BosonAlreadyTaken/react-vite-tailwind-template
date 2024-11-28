@@ -1,0 +1,12 @@
+# Ignore artifacts:
+node_modules
+public
+dist
+env
+*.d.ts
+.husky
+.vscode
+*.md
+
+# Ignore all HTML files:
+*.html
